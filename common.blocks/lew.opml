@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+	<head>
+		<dateCreated>Mon Aug 01 2022 19:36:18 GMT+0400 (Самарское стандартное время)</dateCreated>
+		<dateModified>Mon Aug 01 2022 19:36:18 GMT+0400 (Самарское стандартное время)</dateModified>
+	</head>
+	<body>
+		<outline text="Маленький мир">
+			<outline text="Инструмент">
+				<outline text="Native"></outline>
+				<outline text="Vue"></outline>
+				<outline text="React"></outline>
+				<outline text="Angular"></outline>
+			</outline>
+			<outline text="Территория">
+				<outline text="Кольцевое меню">
+					<outline text="Подтема 1"></outline>
+				</outline>
+			</outline>
+		</outline>
+	</body>
+</opml>

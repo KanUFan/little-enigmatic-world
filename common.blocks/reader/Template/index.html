@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Читалка</title>
+  </head>
+  <body>
+    <div class="side-panel side-panel_left">
+      <div class="side-panel__name">Содержание</div>
+      <div class="side-panel__contents">Глава 1</div>
+    </div>
+
+    <div class="text">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis libero
+      voluptate veritatis nesciunt! Libero porro reprehenderit autem fugiat
+      alias! Laudantium!
+    </div>
+
+    <div class="side-panel side-panel_right">
+      <div class="side-panel__name">Настройки</div>
+      <div class="section">
+        <div class="section__header">Вид страницы</div>
+        <div class="section__option">
+          <div class="parameter">
+            <div class="parameter__name">Цвет текста</div>
+            <input type="color" class="parameter__value" id="chooseColorText" />
+          </div>
+
+          <div class="parameter">
+            <div class="parameter__name">Цвет страницы</div>
+            <input type="color" class="parameter__value" id="chooseColorPage" />
+          </div>
+
+          <div class="parameter">
+            <div class="parameter__name">Шрифт</div>
+            <div>Выпадающее меню</div>
+          </div>
+
+          <div class="parameter">
+            <div class="parameter__name">Жирность шрифта</div>
+            <input
+              type="range"
+              min="1"
+              max="8"
+              value="1"
+              class="parameter__value"
+              id="chooseThicknesFont"
+            />
+          </div>
+
+          <div class="parameter">
+            <div class="parameter__name">Полноэкранный режим</div>
+            <input type="checkbox" class="parameter__value" id="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section__header">Форматирование</div>
+        <div class="section__option">
+          <div class="parameter">
+            <div class="parameter__name">Междустрочный интервал</div>
+            <input type="range" class="parameter__value" />
+          </div>
+          <div class="parameter">
+            <div class="parameter__name">Нумерация страниц</div>
+            <div class="parameter__value">Выпадающее меню</div>
+          </div>
+          <div class="parameter">
+            <div class="parameter__name">Горизонтальные границы</div>
+            <input type="range" class="parameter__value" />
+          </div>
+          <div class="parameter">
+            <div class="parameter__name">Вертикальные границы</div>
+            <input type="range" class="parameter__value" />
+          </div>
+          <div class="parameter">
+            <div class="parameter__name">Выравнивание</div>
+            <div class="parameter__value">Выбор из 3</div>
+          </div>
+          <div class="parameter">
+            <div class="parameter__name">Интервал между абзацами</div>
+            <input type="range" class="parameter__value" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
