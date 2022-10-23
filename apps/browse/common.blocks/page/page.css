@@ -1,0 +1,32 @@
+.page {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 400px auto;
+  grid-template-rows: 100vh;
+}
+.page .box {
+  background-color: rgb(44, 44, 44);
+  place-content: space-evenly;
+  border: 1px solid black;
+  display: grid;
+}
+.page .box__content {
+  background-color: rgb(26, 26, 26);
+  border: 1px solid black;
+  width: 100%;
+  height: 100%;
+}
+.page .box__content .link {
+  text-decoration: none;
+}
+.page .box__content .link:link, .page .box__content .link:visited {
+  color: white;
+}
+.page .box__content .link:hover {
+  color: hsl(34deg, 90%, 68%);
+}
+.page .box__content_centre_m-c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=page.css.map */

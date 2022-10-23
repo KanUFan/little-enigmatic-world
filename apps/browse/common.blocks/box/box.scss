@@ -1,0 +1,7 @@
+.box {
+  background-color: rgb(44, 44, 44);
+  place-content: space-evenly;
+  border: 1px solid black;
+  display: grid;
+  @import '__content/box__content.scss';
+}

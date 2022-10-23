@@ -1,0 +1,8 @@
+&_grid {
+  display: grid;
+  gap: 20px;
+  grid-template: {
+    columns: 400px auto 400px;
+    rows: 100vh;
+  }
+}

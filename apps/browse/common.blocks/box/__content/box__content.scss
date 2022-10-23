@@ -1,0 +1,8 @@
+&__content {
+  background-color: rgb(26, 26, 26);
+  border: 1px solid black;
+  width: 100%;
+  height: 100%;
+  @import '../../link/link.scss';
+  @import '../__content/_centre_m-c/box__content_cente_m-c.scss';
+}

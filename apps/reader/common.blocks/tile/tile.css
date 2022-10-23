@@ -1,0 +1,39 @@
+.tile {
+  width: 150px;
+  height: 200px;
+  background-color: rgb(20, 24, 27);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  margin: 14px;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.09), 0 4px 8px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.3), 0 2px 6px rgba(0, 0, 0, 0.15);
+  padding: 15px;
+  position: relative;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.tile__image {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+.tile__image img {
+  width: 100%;
+  height: 140px;
+}
+.tile__name {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: 30px;
+  overflow-y: hidden;
+}
+.tile:hover {
+  cursor: pointer;
+}/*# sourceMappingURL=tile.css.map */

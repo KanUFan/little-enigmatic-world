@@ -1,0 +1,20 @@
+@import '../common.blocks/zeroing/zeroing.scss';
+@import '../common.blocks/link/link.scss';
+@import '../common.blocks/tile/tile.scss';
+@import '../common.blocks/preview/preview.scss';
+@import '../common.blocks/page/page.scss';
+@import '../common.blocks/parameter/parameter.scss';
+@import '../common.blocks/box/box.scss';
+@import '../common.blocks/input/input.scss';
+
+label {
+  width: 150px;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  &:hover {
+    cursor: pointer;
+  }
+}

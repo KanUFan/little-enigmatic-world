@@ -1,0 +1,8 @@
+.page {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 400px auto;
+    grid-template-rows: 100vh;
+
+    @import '../box/box.scss';
+}
